@@ -14,9 +14,7 @@ Quantum Key Distribution (QKD) is a secure communication method that implements 
 <!-- markdownlint-disable -->
 
 >  This often gets confused with Quantum Cryptography, which is the science of exploiting quantum mechanical properties to perform cryptographic tasks. QKD is just the best known example of Quantum Cryptographic task.
->
-> {: .prompt-info }
->
+{: .prompt-info }
 > <!-- markdownlint-restore -->
 
 For example, if Alice and Bob come up with a common secret key which they can use to encrypt and decrypt the files shared among each other.
