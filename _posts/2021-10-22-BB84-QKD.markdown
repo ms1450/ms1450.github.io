@@ -6,7 +6,7 @@ categories: [Blogging, Explanation]
 tags: [BB84, quantum key distribution]
 ---
 
-# Quantum Key Distribution
+## Quantum Key Distribution
 
 Quantum Key Distribution (QKD) is a secure communication method that implements a cryptographic protocol involving components of quantum mechanics. It enables two parties to produce a shared random secret key, which can then be used to encrypt and decrypt messages.
 
@@ -15,7 +15,7 @@ Quantum Key Distribution (QKD) is a secure communication method that implements 
 
 For example, if Alice and Bob come up with a common secret key which they can use to encrypt and decrypt the files shared among each other.
 
-## Impact of Quantum Computing
+### Impact of Quantum Computing
 
 Quantum computing will have a massive impact on the currently deployed cryptographic algorithms.
 
@@ -27,7 +27,7 @@ Quantum computing will have a massive impact on the currently deployed cryptogra
 | ECDSA, ECDH (Elliptic Curve Cryptography) | Public Key    | Signatures     | Isn't secure anymore    |
 | DSA (Finite Field Cryptography)           | Public Key    | Signatures     | Isn't secure anymore    |
 
-## Quantum Channels
+### Quantum Channels
 
 A quantum channel is a communication channel which can transmit quantum information such as the state of qubit. There are 4 potential qubit states.
 
@@ -36,7 +36,7 @@ A quantum channel is a communication channel which can transmit quantum informat
 | Rectilinear (+) | &#129105; | &#129106; |
 | Diagonal (x)    | &#129108; | &#129109; |
 
-# BB84
+## BB84
 
 So, what is BB84? and how does it fit into this? Developed by Charles Bennett and Gilles Brassard in 1984, it is the first quantum cryptography protocol and is provably secure. To maintain its security, it relies on two principles of quantum mechanics:
 
@@ -45,7 +45,7 @@ So, what is BB84? and how does it fit into this? Developed by Charles Bennett an
 
 It has a complexity of Bounded-error Quantum Polynomial time (BQP) which is the class of decision problems solvable by a quantum computer in polynomial time.
 
-## BB84 Protocol
+### BB84 Protocol
 
 BB84 works with the following eight steps:
 
@@ -61,7 +61,7 @@ BB84 works with the following eight steps:
 
 ![BB84 Protocol](/assets/img/posts/BB84.png){: width="972" height="589" } *The BB84 Protocol*
 
-## Security of BB84
+### Security of BB84
 
 Each randomly chosen basis by Bob has a 50% likelihood of being correct and 50% likelihood of being incorrect. The size of the sifted key would be roughly half of the initially used bits.
 
