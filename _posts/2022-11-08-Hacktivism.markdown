@@ -5,8 +5,8 @@ date: 2022-11-08 13:58:00
 categories: [Blogging, Opinion]
 tags: [Hacktivism, Anonymous, Social Media, Societal Responsibility]
 image:
-  path: '/assets/img/headers/iot.webp'
-  alt: DALL-E Image representing the concept of the Internet of Things (IoT) in a futuristic smart home environment.
+  path: '/assets/img/headers/hacktivism.webp'
+  alt: DALL-E Image featuring a shadowy figure in front of computer screens. 
 ---
 
 > Hacktivism uses computer technology to achieve a social or political agenda through legally ambiguous means. It is a combination of two terms: hacking and Activism. Hacktivism primarily involves government or corporate agencies but can also include institutions, religious groups, or other parties.
