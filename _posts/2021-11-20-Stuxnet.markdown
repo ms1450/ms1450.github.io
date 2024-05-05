@@ -2,7 +2,7 @@
 title: Stuxnet - The malware that hacked a nuclear facility
 author: mehul
 date: 2021-11-20 18:42:00
-categories: [Blogging, Explaination]
+categories: [Blogging, Explanation]
 tags: [Stuxnet, Malware, Iranian Nuclear Facility, Cyberwarfare]
 image:
   path: '/assets/img/headers/Stuxnet.webp'
@@ -64,6 +64,7 @@ The Kernel-Mode rootkit contained a debug message:
 The Stuxnet malware was also designed to update itself with any modifications the attackers made. It could be updated via the internet using two malformed websites:
 - ``www.mypremierfutbol.com``
 - ``www.todaysfutbol.com``
+
 It could also update itself using peer-to-peer connections, creating an RPC Server after being infected and then listening for any connections from any PC on the network. When it discovered another infected machine with a newer malware version, it installed the update on its machine.
 
 ### Payload
