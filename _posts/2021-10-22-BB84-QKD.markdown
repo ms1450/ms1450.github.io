@@ -1,8 +1,8 @@
 ---
 title: BB84 and Quantum Key Distribution
 author: mehul
-date: 2024-05-03 12:07:00
-categories: [Blogging, Explaination]
+date: 2021-10-22 09:50:00
+categories: [Blogging, Explanation]
 tags: [BB84, quantum key distribution]
 ---
 
