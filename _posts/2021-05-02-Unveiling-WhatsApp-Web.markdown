@@ -6,7 +6,7 @@ categories: [Blogging, WriteUp]
 tags: [SSL/TLS, WhatsApp, HTTPS]
 image:
   path: '/assets/img/headers/whatsapp.webp'
-  alt: The artwork is split in half, with one side showing the WhatsApp logo and the other revealing a network of wires and electronic circuits, symbolizing the underlying technology.
+  alt: DALL-E Image is split in half, with one side showing the WhatsApp logo and the other revealing a network of wires and electronic circuits, symbolizing the underlying technology.
 ---
 
 ## Introduction

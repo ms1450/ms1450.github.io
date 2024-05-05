@@ -6,7 +6,7 @@ categories: [Blogging, Explanation]
 tags: [BB84, Quantum Key Distribution]
 image:
   path: '/assets/img/headers/qkd.webp'
-  alt: Detailed diagram of the system with photon emitter, receiver, and other quantum communication elements. The schematic includes annotations for better understanding of the technical aspects.
+  alt: DALL-E Detailed diagram of the system with photon emitter, receiver, and other quantum communication elements.
 ---
 
 ## Quantum Key Distribution

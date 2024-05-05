@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [Policy, Privacy]
 image:
   path: '/assets/img/headers/privacy.webp'
-  alt: Image depicting the concept of privacy in cyberspace. It features an abstract digital landscape with symbols like data streams, a digital lock, and a semi-transparent human face to represent anonymity. The colors used create a mysterious and high-tech atmosphere.
+  alt: DALL-E Image features an abstract digital landscape with symbols like data streams, a digital lock, and a semi-transparent human face to represent anonymity.
 ---
 
 ## Introduction
