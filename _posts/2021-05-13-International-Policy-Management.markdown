@@ -4,6 +4,9 @@ author: mehul
 date: 2021-05-13 17:59:00
 categories: [Blogging, Opinion]
 tags: [Policy, International, Privacy]
+image:
+  path: '/assets/img/headers/international.webp'
+  alt: Image depicting international policy management, featuring a scene of a global summit with representatives from various countries discussing around a large table, set in a modern conference room. The image captures the professional and collaborative atmosphere of international diplomacy.
 ---
 
 ## Introduction
