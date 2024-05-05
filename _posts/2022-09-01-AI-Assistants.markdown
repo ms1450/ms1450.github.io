@@ -1,9 +1,9 @@
 ---
 title: AI Assistants - Impact on Society
 author: mehul
-date: 2022-07-01 20:43:00
+date: 2022-09-01 20:43:00
 categories: [Blogging, Opinion]
-tags: [Artificial Intelligence(AI), AI Assistants, Societal Responsibility, Automation]
+tags: [AI, AI Assistants, Societal Responsibility, Automation]
 image:
   path: '/assets/img/headers/ai_assistant.webp'
   alt: DALL-E Abstract representation of an AI Assistant and automation concept

@@ -1,9 +1,9 @@
 ---
-title: 'Her' and the realities of Robotics - Impact on Society
+title: Her and the realities of Robotics - Impact on Society
 author: mehul
-date: 2022-07-13 11:51:00
+date: 2022-09-13 11:51:00
 categories: [Blogging, Opinion]
-tags: [Artificial Intelligence(AI), Sentience, Human Rights, Societal Responsibility]
+tags: [AI, Sentience, Human Rights, Societal Responsibility]
 image:
   path: '/assets/img/headers/sentience.webp'
   alt: DALL-E Image representing artificial intelligence gaining sentience.
@@ -13,18 +13,18 @@ The film ‘Her’ introduces the viewer to a futuristic world where artificial 
 
 We are on the verge of if not already possessing, sentient AI. They might not be as advanced as the AI portrayed in the movie. However, we are at a stage that closely resembles the earlier iterations of Samantha, where she can answer basic questions like “How are you?” and get an idea of the person’s emotions based on their speech and aggregate a list of emails based on their importance to the user. As the movie progresses, this AI becomes more “human,” showing complex human emotions like imagination, desire, and self-awareness.
 
-This is an essential landmark at which an AI becomes sentient. It understands what it once was and the intelligence it now possesses. If an AI can evolve to a stage where it is aware of its environment and everything around it, it is no longer just a tool that humans use for their benefit or to automate tedious or extensive tasks. This is where an AI should be identified as a species. 
+This is an essential landmark at which an AI becomes sentient. It understands what it once was and the intelligence it now possesses. If an AI can evolve to a stage where it is aware of its environment and everything around it, it is no longer just a tool that humans use for their benefit or to automate tedious or extensive tasks. This is where an AI should be identified as a species.
 
-One might claim that human programmers create AI and that just because it is now able to realize its existence doesn’t mean that it transforms into a species and that it is still just binary code on a computer. 
+One might claim that human programmers create AI and that just because it is now able to realize its existence doesn’t mean that it transforms into a species and that it is still just binary code on a computer.
 
-> I would argue that a sentient AI can exhibit features that might not even exist in some organic creatures on this planet today. 
+> I would argue that a sentient AI can exhibit features that might not even exist in some organic creatures on this planet today.
 {: .prompt-info }
 
 For example, many invertebrates like mollusks and arthropods are not sentient yet classified as a species. Species are not identified because of their organic physical presence. Thus, AIs would be classified as one.
 
 Building on this idea, since AIs were created to help and work for humans, would sentient AI serving humans be considered slavery? I would disagree with this argument.
 
-> Slavery can only be considered when the intellect is similar for both the slave and the enslaver. 
+> Slavery can only be considered when the intellect is similar for both the slave and the enslaver.
 {: .prompt-info }
 
 Just as a narcotics detection dog working with humans at an airport is not a slave, but instead performing duties it was trained to do. Unlike dogs, the AI would be much more intelligent than humans ever could be, and the AI’s decision to work for us and contribute to a common goal that benefits us cannot be seen as slavery. We see this in the movie when, even though Samantha does help Theo with his day-to-day tasks, she is also capable of a much higher level of intellect, which is seen when she communicates with a fellow sentient AI called Alan “post-verbally” because they run out of English vocabulary that defines how they are feeling. This is also why I believe that sentient AI does not conform to human rights or our voting structure at all.
