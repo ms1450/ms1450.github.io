@@ -13,12 +13,18 @@ image:
 
 WhatsApp is a free messaging and voice-over-IP service available on multiple platforms. Facebook, Inc. owns it and enables users to send text and voice messages, make voice and video calls, and share images, documents, user locations, and other content.
 
+> WhatsApp is one of the world's most popular messaging apps, with over 2 billion users worldwide as of 2021. Understanding its features and security can help users make better use of this powerful tool.
+{: .prompt-info }
+
 One of its notable features is WhatsApp Web, which allows users to access the messaging service on desktop computers as long as their mobile device remains connected to the internet. This capability was introduced in 2017, and it syncs the phone application with the desktop app using the same WhatsApp account, retrieving all the messages and media. Unlike the mobile application, WhatsApp Web works on web browsers, which allows for further investigation into its infrastructure to understand its behavior better.
 
 ## Setup
 
 As part of my research, I used an Ubuntu machine to log my SSL handshakes. The machine had a Firefox web browser, Wireshark installed, a stable internet connection, and a working WhatsApp account.
 Given the intricate nature of SSL encryption, a standard feature of most messaging platforms including WhatsApp, I embarked on the task of devising a method to circumvent this encryption.
+
+> Interfering with SSL/TLS encryption can have legal and ethical implications. The techniques discussed here are intended for educational purposes only. Always ensure you have the necessary permissions and understand the laws applicable in your jurisdiction before attempting any form of network interception or data decryption.
+{: .prompt-warning }
 
 To confirm this, I took a small Wireshark capture while using WhatsApp web and observed that all the traffic going to the WhatsApp server from the web browser was indeed encrypted using TLS. I also saw the TLS Client Hello and the change in Cipher protocols in the Wireshark capture.
 ![Wireshark of WhatsApp Web 1](/assets/img/posts/UnveilingWhatsapp-1.png){: width="972" height="589" } *WhatsApp Web Wireshark Capture*
@@ -53,8 +59,7 @@ These are: ``MAGIC``, ``SETTINGS``, ``WINDOW_UPDATE``, and ``PRIORITY``.
 - ``WINDOW_UPDATE`` : provide any changes made to the window itself, updating the server using a parameter called ``Window Size Increment``.
 - ``PRIORITY`` : contains five parameters, *Reserved*, *Stream Identifier*, *Exclusive*, and *Stream Dependency* and *Weight*.
 
->  The Stream Identifier is the ID pertaining to the Data that gets sent. The Stream Dependency is the number on which that ``PRIORITY`` header is dependent on and it is always a value lower than its own Stream ID. The Weight ranges from 0 to 240, and signifies the importance of Stream ID.
-{: .prompt-tip }
+The Stream Identifier is the ID pertaining to the Data that gets sent. The Stream Dependency is the number on which that ``PRIORITY`` header is dependent on and it is always a value lower than its own Stream ID. The Weight ranges from 0 to 240, and signifies the importance of Stream ID.
 
 Although we can see ``HEADERS`` and ``WINDOW_UPDATE`` as well as ``SETTINGS`` throughout the packet capture, the ``MAGIC`` and ``PRIORITY`` headers are only used for the initial setup for WhatsApp Web.
 
@@ -96,6 +101,9 @@ The last header that gets sent to close the connections is the ``GOAWAY`` header
 
 Further research can be conducted on the protocol; traffic can be captured while performing various actions such as sending different media through chat, adding new users, deleting messages, creating group chats, etc. This will provide us with an even more precise understanding of the headers and protocols used by WhatsApp. We can even use the technical white pages supplied by WhatsApp to decrypt the end-to-end encrypted data further, finding out exactly how each text message is sent.
 
+> Further research into how different types of data are transmitted over WhatsApp can provide deeper insights into its operational security and data handling practices. This could lead to enhanced security measures for users.
+{: .prompt-info }
+
 ## Conclusion
 
 WhatsApp Messenger is a very sophisticated environment with its own set of protocols and headers. WhatsApp Web allows us to monitor this traffic through HTTP and better understand how it behaves. We can bypass SSL encryption and get a clearer view of the interactions between WhatsApp servers and the web browser.
@@ -103,6 +111,9 @@ WhatsApp Messenger is a very sophisticated environment with its own set of proto
 ## Disclaimer
 
 Since WhatsApp Web is a private organization, it does not disclose its exact source code. We cannot know exactly how it behaves in the backend; the most we can do is observe the traffic and make educated guesses about how it might work. I analyzed the web traffic captured and made the best estimates as to how these headers might be used. This information may not be completely accurate.
+
+> The decryption of network traffic as described involves manipulating security protocols that protect data privacy. Such actions can be illegal and unethical without proper authorization. This information is provided for educational purposes only and should not be used improperly or without thorough legal consideration.
+{: .prompt-danger }
 
 # References
 
