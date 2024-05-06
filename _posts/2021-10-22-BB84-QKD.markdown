@@ -13,8 +13,10 @@ image:
 
 Quantum Key Distribution (QKD) is a secure communication method that implements a cryptographic protocol involving components of quantum mechanics. It enables two parties to produce a shared random secret key, which can then be used to encrypt and decrypt messages.
 
->  This often gets confused with Quantum Cryptography, which is the science of exploiting quantum mechanical properties to perform cryptographic tasks. QKD is just the best known example of Quantum Cryptographic task.
+> Quantum Key Distribution (QKD) uses quantum mechanics principles to secure a communication channel, ensuring that any attempt to eavesdrop can be detected immediately.
 {: .prompt-info }
+
+This often gets confused with Quantum Cryptography, which is the science of exploiting quantum mechanical properties to perform cryptographic tasks. QKD is just the best known example of Quantum Cryptographic task.
 
 For example, if Alice and Bob come up with a common secret key which they can use to encrypt and decrypt the files shared among each other.
 
@@ -30,6 +32,11 @@ Quantum computing will have a massive impact on the currently deployed cryptogra
 | ECDSA, ECDH (Elliptic Curve Cryptography) | Public Key    | Signatures     | Isn't secure anymore    |
 | DSA (Finite Field Cryptography)           | Public Key    | Signatures     | Isn't secure anymore    |
 
+> The emergence of quantum computing poses a significant threat to traditional cryptography methods; organizations should start planning to upgrade to quantum-resistant algorithms.
+{: .prompt-warning }
+
+Implementing larger key sizes for AES and SHA algorithms can help mitigate some of the security risks posed by quantum computers.
+
 ### Quantum Channels
 
 A quantum channel is a communication channel which can transmit quantum information such as the state of qubit. There are 4 potential qubit states.
@@ -39,9 +46,17 @@ A quantum channel is a communication channel which can transmit quantum informat
 | Rectilinear (+) | &#129105; | &#129106; |
 | Diagonal (x)    | &#129108; | &#129109; |
 
+> When working with quantum communications, it’s essential to ensure the integrity and isolation of the quantum channel to prevent interference.
+{: .prompt-tip }
+
 ## BB84
 
-So, what is BB84? and how does it fit into this? Developed by Charles Bennett and Gilles Brassard in 1984, it is the first quantum cryptography protocol and is provably secure. To maintain its security, it relies on two principles of quantum mechanics:
+So, what is BB84? and how does it fit into this? Developed by Charles Bennett and Gilles Brassard in 1984, it is the first quantum cryptography protocol and is provably secure.
+
+> BB84 is foundational for modern quantum cryptography, using properties like quantum entanglement and the no-cloning theorem to secure communications.
+{: .prompt-info }
+
+To maintain its security, it relies on two principles of quantum mechanics:
 
 - Heisenberg's Uncertainty Principle : we cannot know both the position and momentum of a particle at quantum level, it is impossible to create an independent and identical copy of an arbitrary unknown quantum state. (No-Cloning Theorem)
 - Entanglement : Quantum particles are not always independent of each other and can be entangled, when you measure one particle, the superposition of the other instantly collapses.
@@ -64,13 +79,22 @@ BB84 works with the following eight steps:
 
 ![BB84 Protocol](/assets/img/posts/BB84.png){: width="972" height="589" } *The BB84 Protocol*
 
+> Always ensure the randomness of the initial bit sequence in BB84 to prevent vulnerabilities to attacks such as MITM.
+{: .prompt-tip }
+
 ### Security of BB84
 
 Each randomly chosen basis by Bob has a 50% likelihood of being correct and 50% likelihood of being incorrect. The size of the sifted key would be roughly half of the initially used bits.
 
 In the event that Eve tries to intercept the quantum channel between Alice and Bob, since she cannot make identical copies of the qubits, she would have to communicate individually with Alice, and then with Bob. This would mean that Bob’s likelihood of choosing the same basis as Alice will be reduced to 25% with the probability of being incorrect becoming 75%. With this they can easily detect if their communication is being intercepted.
 
+> Be aware of the risks of interception in quantum channels; maintaining strict protocol adherence is crucial for security.
+{: .prompt-warning }
+
 One drawback for BB84 is that the bits chosen by Alice have to be random, if not, Eve is able to imitate Alice and successfully conduct a Man in the Middle (MITM) attack.
+
+> The security of quantum key distribution like BB84 relies heavily on detecting discrepancies in key distribution phases, which are indicative of interception attempts.
+{: .prompt-info }
 
 # References
 
