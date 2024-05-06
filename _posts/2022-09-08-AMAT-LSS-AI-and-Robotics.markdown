@@ -11,8 +11,10 @@ image:
 
 In his article “Artificial Intelligence and Society: A Furtive Transformation,” Kile walks through the different aspects of our lives that are impacted by the introduction of automation machine-aided thinking (AMAT) and Large-Scale social systems (LSS). While I agree with much of what he says in his article, I disagree on certain factors. We are at a point today where returning to sustained living before the introduction of AMAT is no longer possible.
 
-> We rely too heavily on machines and automation in our day-to-day lives that simply “unplugging” would cause more harm than benefit.
+> AMAT refers to the use of machines to perform tasks that require cognitive functions, such as learning, decision-making, and problem-solving. LSS encompasses the broad, interconnected applications of these technologies in societal systems.
 {: .prompt-info }
+
+We rely too heavily on machines and automation in our day-to-day lives that simply “unplugging” would cause more harm than benefit.
 
 As a result, I believe that the impacts of AMAT, whether reasonable, like advancements in technology, discoveries, and scientific revelations, or bad, like mass unemployment or the collapse of our current and past social lifestyles, are inevitable.
 
@@ -20,18 +22,25 @@ One of the significant causes of concern that Kile mentioned in his article is m
 
 On the one hand, the introduction of computers caused the downfall of mathematicians. However, on the other hand, it saw a rise in new fields like computer programmers and software developers. A pre-computer generation had no idea that these jobs could ever exist. We are in a similar situation now with AMAT and LSS.
 
-> With fewer people being employed to do specific tasks, new jobs will eventually emerge that could range from training or repairing these machines to more people expressing artistic skills or even their humanity.
-{: .prompt-info }
+With fewer people being employed to do specific tasks, new jobs will eventually emerge that could range from training or repairing these machines to more people expressing artistic skills or even their humanity.
+
+> Consider exploring educational resources and training programs focused on emerging technologies and digital literacy to stay relevant in a rapidly changing job market.
+{: .prompt-tip }
 
 Shortly, when AI is proficient enough to accomplish everything that a human is capable of, including human emotions. Humans would still use this to their advantage to reach new boundaries and find new ways to sustain their ecosystem, though what it would be is difficult to imagine right now.
 
 Another issue with AMAT is the risk of warfare automation. When machines are put against humans, I do not doubt that machines would prevail almost every time. The human element of war is becoming increasingly distant as new weapons are created. I agree with Kile that this poses a severe threat to humanity. AI, at least for now, lacks the emotions and intuition that a human can offer. However, automation would be a better alternative to using humans in warfare. This is because, while machines, for now, lack intuition, humans also tend to hold grudges and participate in war crimes, we are not perfect in our judgments of a situation.
 
+> The automation of warfare could lead to new types of conflicts and escalate quickly due to the lack of human emotion and intuition in decision-making processes. This highlights the importance of rigorous ethical standards and controls in military AI development.
+{: .prompt-danger }
+
 Conversely, AI works on a predefined set of code, a complex ruleset that dictates what can and cannot be done. War is always ugly, and the best outcome we can hope for is to minimize casualties and misjudgments through automation. If an AI reaches the intellect where it can hold grudges, have emotions, and voluntarily decide to harm others, it will also realize that the adversary’s machines and AI are far more critical assets than the adversary humans themselves. Humans would be ruled out of participating in wars simply because they would be too inefficient.
 It is only a matter of time before machines and LSS surpass human intelligence and can replicate or even improve upon our basic human emotions. They would portray a better “human” than humans themselves if developed enough.
 
-> AMAT and LSS are a cause for concern, but I also think that if implemented and utilized correctly, this would be much more beneficial to us than harmful.
-{: .prompt-tip }
+> The idea that machines might one day not only mimic but also enhance human emotions is a subject of both scientific and philosophical debate. This raises questions about the nature of consciousness and identity.
+{: .prompt-info }
+
+AMAT and LSS are a cause for concern, but I also think that if implemented and utilized correctly, this would be much more beneficial to us than harmful.
 
 # References
 
