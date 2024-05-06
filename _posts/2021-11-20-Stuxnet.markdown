@@ -6,7 +6,7 @@ categories: [Blogging, Explanation]
 tags: [Stuxnet, Malware, Iranian Nuclear Facility, Cyberwarfare]
 image:
   path: '/assets/img/headers/Stuxnet.webp'
-  alt: DALL-E Artistic interpretation of Stuxnet as a sinister and stealthy digital entity.
+  alt: DALL-E Image of Malware created using small geometric shapes in a monochrome design on a black background.
 ---
 
 ## What was Stuxnet?

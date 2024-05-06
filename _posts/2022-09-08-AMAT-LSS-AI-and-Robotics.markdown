@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [AI, AMAT, LSS, Societal Responsibility, Automation]
 image:
   path: '/assets/img/headers/amat.webp'
-  alt: DALL-E Image depicting a futuristic cityscape with AMAT, LSS, AI, and Robotics.
+  alt: DALL-E Image of Robot created using small geometric shapes in a monochrome design on a black background.
 ---
 
 In his article “Artificial Intelligence and Society: A Furtive Transformation,” Kile walks through the different aspects of our lives that are impacted by the introduction of automation machine-aided thinking (AMAT) and Large-Scale social systems (LSS). While I agree with much of what he says in his article, I disagree on certain factors. We are at a point today where returning to sustained living before the introduction of AMAT is no longer possible.

@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [Policy, International, Privacy]
 image:
   path: '/assets/img/headers/international.webp'
-  alt: DALL-E Image featuring a scene of a global summit with representatives from various countries discussing around a large table.
+  alt: DALL-E Image of Globe created using small geometric shapes in a monochrome design on a black background.
 ---
 
 ## Introduction

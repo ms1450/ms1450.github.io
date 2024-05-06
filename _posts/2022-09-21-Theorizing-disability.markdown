@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [Disability, Social Construct, Societal Responsibility]
 image:
   path: '/assets/img/headers/disability.webp'
-  alt: DALL-E Image representing two technologies mentioned set in everyday environments to reflect their usage contexts.
+  alt: DALL-E Image of Disability created using small geometric shapes in a monochrome design on a black background.
 ---
 
 > Disability, as described by Paul T. Jaeger and Cynthia Ann Bowman in their book “Understanding Disability,” is not static; it is everchanging, and its definition is adapted to fit into whatever society perceives it to be.

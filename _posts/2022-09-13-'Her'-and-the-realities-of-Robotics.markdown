@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [AI, Sentience, Human Rights, Societal Responsibility]
 image:
   path: '/assets/img/headers/sentience.webp'
-  alt: DALL-E Image representing artificial intelligence gaining sentience.
+  alt: DALL-E Image of Sentience created using small geometric shapes in a monochrome design on a black background.
 ---
 
 The film ‘Her’ introduces the viewer to a futuristic world where artificial intelligence is fully integrated into the everyday life of our protagonist. This world has everything from companies that can create personalized letters for you to sophisticated AI integrated into video games. However, one of the most thought-provoking concepts that this movie introduces us to is the AI-human relationship that develops throughout this movie between the OS “Samantha” and the main protagonist “Theo.” This movie made me question how we perceive AI today and think about how this might change in the coming years.

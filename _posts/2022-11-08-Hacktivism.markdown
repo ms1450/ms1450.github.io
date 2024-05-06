@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [Hacktivism, Anonymous, Social Media, Societal Responsibility]
 image:
   path: '/assets/img/headers/hacktivism.webp'
-  alt: DALL-E Image featuring a shadowy figure in front of computer screens. 
+  alt: DALL-E Image of Hacktivism created using small geometric shapes in a monochrome design on a black background.
 ---
 
 > Hacktivism uses computer technology to achieve a social or political agenda through legally ambiguous means. It is a combination of two terms: hacking and Activism. Hacktivism primarily involves government or corporate agencies but can also include institutions, religious groups, or other parties.
@@ -14,9 +14,9 @@ image:
 
 Hacktivism lies in four different boundaries. These are Civil Disobedience, Hacking, Online Activism, and Cyberterrorism. While civil disobedience and hacktivism share unrest towards a political or social structure, hacktivism has an online presence and actions to be taken online. Internet is not considered hacktivism, as it has an extensive range of motivations, while hacking done for social or political motivations is classified as hacktivism. Many other motivations include money, ego, entertainment, and status.
 
-Online Activism uses social media, emails, podcasts, and petitions to raise awareness and motivate the audience to act toward a set goal. This differs from HacktiHacktivism, which does not obstruct regular computer activity or break laws or policies. 
+Online Activism uses social media, emails, podcasts, and petitions to raise awareness and motivate the audience to act toward a set goal. This differs from HacktiHacktivism, which does not obstruct regular computer activity or break laws or policies.
 
-> Cyberterrorism is social or politically motivated hacking done with the sole intention of causing harm to the victim; this could either be loss of life or severe economic damage. On the other hand, hacktivism is not done to cause harm; instead, it is meant to spread awareness and be heard by others. 
+> Cyberterrorism is social or politically motivated hacking done with the sole intention of causing harm to the victim; this could either be loss of life or severe economic damage. On the other hand, hacktivism is not done to cause harm; instead, it is meant to spread awareness and be heard by others.
 {: .prompt-info }
 
 Individually, these four terms do not define or relate to hacktiHack; however, collectively, they provide us with the meaning of hacktiHacktivismtivism, which first emerged in 1996 through a hacker collective called “Cult of the Dead Cow.” The primary reason for its emergence was the growing importance of the Internet of Communication. Protests and disagreements have been an essential part of history; people have consistently demonstrated their need to be heard and get their message across even before the invention of the Internet. Internet, this was done through rallies held outside city halls and letters sent to newspaper editors or government officials. However, it was all geographically localized. With the emergence of the Internet, the Internet could communicate and interact regardless of their physical location. They were now also able to find and collaborate with like-minded individuals with the same ideologies and philosophies. Hacktivism allowed these individuals to collaborate, make statements, and spread their ideas.

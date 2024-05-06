@@ -5,8 +5,8 @@ date: 2021-10-03 21:04:00
 categories: [Blogging, WriteUp]
 tags: [Windows, Password, Tools]
 image:
-  path: '/assets/img/headers/windows.jpg'
-  alt: Windows 10 Wallpaper featuring the Microsoft Windows logo.
+  path: '/assets/img/headers/windows.webp'
+  alt: DALL-E Image of Windows created using small geometric shapes in a monochrome design on a black background.
 ---
 
 ## Tool Description

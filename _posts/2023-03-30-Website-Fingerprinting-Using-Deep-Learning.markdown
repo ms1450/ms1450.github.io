@@ -6,17 +6,17 @@ categories: [Blogging, Research]
 tags: [Website Fingerprinting, CNN, Hyperparameters, Network Traffic Data, Deep Learning]
 image:
   path: '/assets/img/headers/fingerprinting.webp'
-  alt: DALL-E Image captures the sophisticated neural network and abstract digital connections involved in this process.
+  alt: DALL-E Image of CNN created using small geometric shapes in a monochrome design on a black background.
 ---
 
 ## Introduction
 
-> Website fingerprinting is a technique that classifies network traffic data into specific websites based on distinct characteristics such as packet size, timing, and number. 
+> Website fingerprinting is a technique that classifies network traffic data into specific websites based on distinct characteristics such as packet size, timing, and number.
 {: .prompt-info }
 
 This method creates a unique "fingerprint" for each website, allowing attackers to infer the web pages a user visits, even through encrypted connections.
 
-In this research, a Convolutional Neural Network (CNN) was trained and evaluated for its effectiveness in website fingerprinting attacks. Established hyperparameters from previous studies (AWF, DF, DL) were utilized to gauge their impact on model performance. 
+In this research, a Convolutional Neural Network (CNN) was trained and evaluated for its effectiveness in website fingerprinting attacks. Established hyperparameters from previous studies (AWF, DF, DL) were utilized to gauge their impact on model performance.
 
 > The CNN model achieved a 10% improvement in accuracy when tested across the entire dataset.
 {: .prompt-tip }
@@ -104,7 +104,7 @@ The following is a breakdown of the results for each of the hyperparameters:
 - **Batch Normalization**: Models employing Batch Normalization demonstrated better performance than those without it, indicating that BN contributes to regularization and helps prevent overfitting, thereby improving accuracy. This supports the claims by C. Garbin, X. Zhu, and O. Marques regarding the benefits of BN in enhancing model effectiveness.
 - **Dropout Layers**: Models with a dropout rate of 0.9 outperformed those with other rates. While dropout rates between 0.1 and 0.7 achieved similar accuracy levels, models with lower rates reached peak accuracy more swiftly than those with higher rates. However, increasing the dropout rate beyond a certain point was counterproductive, as higher rates resulted in lower accuracy, indicating a limit to the effectiveness of increasing dropout to improve performance.
 
-> Based on our experiments, we have found that certain hyperparameters deliver the most promising results. These include Input Units set to 8000, the use of SGD as the optimization function, ReLU as the activation function, inclusion of Batch Normalization, and a dropout layer rate of 0.9. 
+> Based on our experiments, we have found that certain hyperparameters deliver the most promising results. These include Input Units set to 8000, the use of SGD as the optimization function, ReLU as the activation function, inclusion of Batch Normalization, and a dropout layer rate of 0.9.
 {: .prompt-tip }
 
 These hyperparameters were crucial in creating our 'Best' model, which we compared with the previous three models.
@@ -120,12 +120,12 @@ Notably, the DF model outperforms the other models significantly in terms of bot
 
 ![Accuracy over Epochs for CNN](/assets/img/posts/wf-1.png){: width="972" height="589" } *Accuracy over Epochs for CNN*
 
-This illustrates the classification accuracy of website fingerprinting undefended traffic using a CNN in a closed-world experiment, where the tested models' accuracy is observed over multiple epochs. 
+This illustrates the classification accuracy of website fingerprinting undefended traffic using a CNN in a closed-world experiment, where the tested models' accuracy is observed over multiple epochs.
 
-> The graph shows that, for all models, the accuracy improvements are less noticeable after 25 epochs. 
+> The graph shows that, for all models, the accuracy improvements are less noticeable after 25 epochs.
 {: .prompt-info }
 
-The figure indicates that the AWF model reaches its peak accuracy the fastest, followed by the 'Best' model, and the 'DF' model takes the longest. However, the DF model catches up and surpasses the other models in about 15 epochs. We can also see a significant improvement in the 'Best' model compared to the 'Default' model, consistently providing higher accuracy and quicker delivery. 
+The figure indicates that the AWF model reaches its peak accuracy the fastest, followed by the 'Best' model, and the 'DF' model takes the longest. However, the DF model catches up and surpasses the other models in about 15 epochs. We can also see a significant improvement in the 'Best' model compared to the 'Default' model, consistently providing higher accuracy and quicker delivery.
 
 > The 'Best' model was constructed by varying only a few hyperparameters of the 'Default' model. This model could be further improved by modifying other hyperparameters, such as the number of hidden layers, the density of hidden layers, filters and filter sizes, and convolutional layers.
 {: .prompt-tip }

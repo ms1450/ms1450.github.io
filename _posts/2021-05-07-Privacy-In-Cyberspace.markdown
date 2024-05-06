@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [Policy, Privacy]
 image:
   path: '/assets/img/headers/privacy.webp'
-  alt: DALL-E Image features an abstract digital landscape with symbols like data streams, a digital lock, and a semi-transparent human face to represent anonymity.
+  alt: DALL-E Image of Lock created using small geometric shapes in a monochrome design on a black background.
 ---
 
 ## Introduction

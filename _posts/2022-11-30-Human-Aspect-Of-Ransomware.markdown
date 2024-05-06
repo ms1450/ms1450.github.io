@@ -6,17 +6,17 @@ categories: [Blogging, Research]
 tags: [Ransomware, Extortion, Cryptocurrencies, Societal Responsibility]
 image:
   path: '/assets/img/headers/ransomware.webp'
-  alt: DALL-E Image captures the ominous and threatening nature of a ransomware attack.
+  alt: DALL-E Image of Ransomware created using small geometric shapes in a monochrome design on a black background.
 ---
 
 ## Introduction
 
-In its very fundamental form, ransomware is malicious software that obstructs the workings of a machine or a user’s access to data and its programs until a demand is fulfilled. This demand is usually the victim’s money as a ransom, and their devices are held as hostages by the attackers. However, the attackers can ask their victims for anything besides money, such as spreading the malware to other machines, revealing sensitive information they might be privy to, or even disclosing their attack publicly to humiliate the victims. Other malware, like viruses or remote access tools, might try to hide its tracks and stay within the network for as long as possible, collecting information and causing indirect disruptions. 
+In its very fundamental form, ransomware is malicious software that obstructs the workings of a machine or a user’s access to data and its programs until a demand is fulfilled. This demand is usually the victim’s money as a ransom, and their devices are held as hostages by the attackers. However, the attackers can ask their victims for anything besides money, such as spreading the malware to other machines, revealing sensitive information they might be privy to, or even disclosing their attack publicly to humiliate the victims. Other malware, like viruses or remote access tools, might try to hide its tracks and stay within the network for as long as possible, collecting information and causing indirect disruptions.
 
 > Ransomware’s main objective is to hold the victim’s machine hostage and demand a ransom to get the victim’s attention; the ransomware is as loud and apparent as possible.
 {: .prompt-info }
 
-While the goal of ransomware is to extort a victim, there are four types of ransomware malware: scare, lock, crypto, and wipe. Scare ransomware is malicious software that claims to detect a virus or an issue on your computer; it then asks you to pay the attackers to resolve the problem. While some Scare ransomware flood the computer screen with pop-up alerts without modifying or deleting files, others might lock the victim’s device. The Lock ransomware locks the user out of their device, making it inaccessible. The lock screen displays information like the attacker’s payment address, their ransom demand, and sometimes a clock that is counting down to instill a sense of urgency for the victims to act. Besides making the device inaccessible, the Wipe ransomware starts erasing random software and files from the machine. This forces their victims to act fast to get as much of their data back as possible. Lastly, the Crypto ransomware encrypts the data on a machine. This way, even though the victim can access their computer, they cannot work or open any of their files without a decryption key, which the attackers provide if they are paid their ransom. 
+While the goal of ransomware is to extort a victim, there are four types of ransomware malware: scare, lock, crypto, and wipe. Scare ransomware is malicious software that claims to detect a virus or an issue on your computer; it then asks you to pay the attackers to resolve the problem. While some Scare ransomware flood the computer screen with pop-up alerts without modifying or deleting files, others might lock the victim’s device. The Lock ransomware locks the user out of their device, making it inaccessible. The lock screen displays information like the attacker’s payment address, their ransom demand, and sometimes a clock that is counting down to instill a sense of urgency for the victims to act. Besides making the device inaccessible, the Wipe ransomware starts erasing random software and files from the machine. This forces their victims to act fast to get as much of their data back as possible. Lastly, the Crypto ransomware encrypts the data on a machine. This way, even though the victim can access their computer, they cannot work or open any of their files without a decryption key, which the attackers provide if they are paid their ransom.
 
 > Crypto ransomware is one of the most well-known, familiar, and dangerous types of ransomware and is primarily what we think of when we talk about ransomware today.
 {: .prompt-info }
@@ -27,9 +27,9 @@ More recently, ransomware has taken a newer approach instead of being created, d
 ## Analysis of Ransomware
 
 The first Ransomware, “AIDS Trojan,” had a timer that would wait until the infected devices boot cycled 90 times before the ransom demand popped up. This was done to hide the source of the Ransomware and prevent anyone from tracking down the attacker. However, since the ransom money was to be sent to a post office, law enforcement was able to track down the attacker and put an end to the “AIDS Trojan.” In the early 2000s, since electronic payment was not yet introduced, the victims had to send money through mail, making it very easy to track down and stop. This made it difficult, if not impossible, for hackers to hide the footprint that the paid ransom left behind.
-In 2005, E-gold and Liberty Reserve services were launched, offering digital currencies that allowed users to register and transfer money to other users using only a name, email address, and date of birth. The lack of identity verification made it an attractive option for attackers to demand ransom through. However, as the cybersecurity landscape improved, email tracking allowed the government to trace any purchases made on these platforms. 
+In 2005, E-gold and Liberty Reserve services were launched, offering digital currencies that allowed users to register and transfer money to other users using only a name, email address, and date of birth. The lack of identity verification made it an attractive option for attackers to demand ransom through. However, as the cybersecurity landscape improved, email tracking allowed the government to trace any purchases made on these platforms.
 
-> It wasn’t until 2013 with the rise of cryptocurrencies such as Ethereum and Bitcoin, that Ransomware became a pervasive threat. Unlike regular payment services, cryptocurrencies allowed for anonymous transfer of funds across borders without any monitoring and it was very cheap to set up. 
+> It wasn’t until 2013 with the rise of cryptocurrencies such as Ethereum and Bitcoin, that Ransomware became a pervasive threat. Unlike regular payment services, cryptocurrencies allowed for anonymous transfer of funds across borders without any monitoring and it was very cheap to set up.
 {: .prompt-info }
 
 This made it extremely difficult for governments to regulate and track cryptocurrency payments, leading to a surge in Ransomware.
@@ -37,7 +37,7 @@ Threat intelligence predicts a continued rise in ransomware attacks in the comin
 
 ## Science of Ransomware
 
-> Ransomware stands out from other conventional malware not only by its methodology but also its approach. It does not explicitly target a vulnerability or a flaw in the infected computer. Instead, it plays with its victim’s emotions and human nature. 
+> Ransomware stands out from other conventional malware not only by its methodology but also its approach. It does not explicitly target a vulnerability or a flaw in the infected computer. Instead, it plays with its victim’s emotions and human nature.
 {: .prompt-info }
 
 It convinces the victim that paying the ransom for their data is much more viable than starting over from scratch. Like any hostage situation, it convinces the victim that what is being taken from them is worth spending their money on.
@@ -52,16 +52,16 @@ The complicated interactions between these parties are what make ransomware a ch
 The human factor plays a pivotal role in ransomware. Even with the use of evolving cybersecurity measures, automated systems, and complex intrusion detection systems, attackers are still able to gain access to targeted systems by exploiting human error. This proves that technology alone cannot eradicate human-induced mistakes. Society also impacts and is impacted by ransomware attacks.
 Over time, almost every organization that intends to keep up with the technologies has established a digital presence. This has enabled organizations to not only cater to a large number of customers but also provide fast and efficient services. However, with an increased reach, organizations also reveal themselves to more malicious actors seeking to exploit their infrastructure. Computers, tablets, and smartphones have become significant in our daily lives. Besides work, these devices now act as our only means of communication with the digital society we have created for ourselves. Our digital presence holds more significance to us than it has ever held before. Businesses rely heavily on their digital footprint; in many cases, these devices are their only source of income.
 Ransomware attacks use this greater reliance on technology to extort considerable funds from their victims. Every victim has a set willingness to pay (WTP), this is the amount of ransom an attacker can extort from their victims. At the same time, this depends on various factors, such as whether the victim has backups of their data, their budget, and the contents of their data. The attackers can get a good idea about their victim’s WTP based on their operational information. They can do this by researching the victim’s business online and studying their infrastructure.
-Given that data accumulates over time, and organizations value their data more, the more extensive and comprehensive it is, the more their WTP also increases. A larger WTP directly impacts an attacker’s asked ransom, affecting the victim’s valuation of their data. 
+Given that data accumulates over time, and organizations value their data more, the more extensive and comprehensive it is, the more their WTP also increases. A larger WTP directly impacts an attacker’s asked ransom, affecting the victim’s valuation of their data.
 
 > Therefore, the more an organization interacts with and impacts society, the greater the potential ransom an attacker might ask.
 {: .prompt-info }
 
 Besides the victims, there are also social implications for the attackers, whilst they can, and there have been cases where attackers have failed to hold their end of the transaction. This attack relies on the victim’s belief that they will regain their data. The attackers are responsible for following through with their end of the deal and helping the victim recover their data. If they don’t, this model can no longer sustain itself and collapses, collectively impacting all the ransomware attackers.
 This way, society plays an active role in shaping ransomware attacks into what they are today and how they change going forward. Ransomware itself shapes our opinions of the valuations we place on our data. Ransomware attacks greatly impact society’s views of an organization, impacting the organization itself.
-Attackers use this to increase their profits and raise the demanded ransom. The social impact and consequences can also be used for defensive measures. 
+Attackers use this to increase their profits and raise the demanded ransom. The social impact and consequences can also be used for defensive measures.
 
-> Technological cybersecurity measures can protect against some of an organization’s threats, but understanding why ransomware works can also help us develop non-technological defenses that could protect against exploiting the human aspect of technology. 
+> Technological cybersecurity measures can protect against some of an organization’s threats, but understanding why ransomware works can also help us develop non-technological defenses that could protect against exploiting the human aspect of technology.
 {: .prompt-tip }
 
 This could be done by spreading awareness about the techniques used by the attackers, removing the victim’s ability to trust their attackers, or making it difficult for attackers to get an idea of a victim’s WTP.

@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [IoT, Hacking, Societal Responsibility]
 image:
   path: '/assets/img/headers/iot.webp'
-  alt: DALL-E Image representing the concept of the Internet of Things (IoT) in a futuristic smart home environment.
+  alt: DALL-E Image of IoT created using small geometric shapes in a monochrome design on a black background.
 ---
 
 > Internet of Things (IoT) is a concept that describes physical devices embedded with various software and sensors networked together, allowing them to share data and communicate with each other.

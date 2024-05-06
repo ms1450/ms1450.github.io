@@ -6,7 +6,7 @@ categories: [Blogging, Explanation]
 tags: [BB84, Quantum Key Distribution]
 image:
   path: '/assets/img/headers/qkd.webp'
-  alt: DALL-E Detailed diagram of the system with photon emitter, receiver, and other quantum communication elements.
+  alt: DALL-E Image of Quantum Computer created using small geometric shapes in a monochrome design on a black background.
 ---
 
 ## Quantum Key Distribution

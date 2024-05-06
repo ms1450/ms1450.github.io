@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [Digital Duplication, Regulation, Societal Responsibility]
 image:
   path: '/assets/img/headers/duplication.webp'
-  alt: DALL-E Image representing the futuristic dystopia, the use of memory-sharing technology, and the ethical implications of digital duplication.
+  alt: DALL-E Image of Digital Duplication created using small geometric shapes in a monochrome design on a black background.
 ---
 
 Black Mirror’s “Entire History of You” and “White Christmas” introduce us to a dystopia where most of the population has “Zed Eyes”. This audio-visual recording technology is housed inside your brain; it uses your eyes as the camera and can record and replay memories by controlling a small remote controller.

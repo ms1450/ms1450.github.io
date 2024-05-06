@@ -6,7 +6,7 @@ categories: [Blogging, Opinion]
 tags: [AI, AI Assistants, Societal Responsibility, Automation]
 image:
   path: '/assets/img/headers/ai_assistant.webp'
-  alt: DALL-E Abstract representation of an AI Assistant and automation concept
+  alt: DALL-E Image of AI Assistant created using small geometric shapes in a monochrome design on a black background.
 ---
 
 AI Assistants are slowly becoming an essential aspect of our lives. While not daily, I occasionally turn on the AI feature on my phone to observe the progress companies have made on their AIs. I usually ask them trivial questions followed by follow-ups to see if they can keep the conversation going. When AI assistants first came out, much like other people, I was also fascinated by their ability to share jokes, play games, and instantly search the web to give me accurate answers. However, over time, as my fascination with AI assistants died out, I stopped using them because I felt that doing the task independently was faster than trying to make the AI understand what I wanted. With time, as voice recognition and AI technology improve, I see more people handing over their trivial tasks to AI Assistants.
