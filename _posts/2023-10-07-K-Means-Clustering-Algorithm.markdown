@@ -1,5 +1,5 @@
 ---
-title: Malicious Network Traffic Classification Using Deep Neural Networks
+title: K-Means Clustering Algorithm
 author: mehul
 date: 2023-10-07 23:39:00
 categories: [Blogging, WriteUp]
@@ -18,7 +18,7 @@ This report summarizes the implementation and evaluation of a K-Means clustering
 
 ## Quick Start
 
-This section will outline the necessary steps to use both the K-Means and the K-Means Mahalanobis algorithms. This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook:  [Running Jupyter Notebook on Visual Studio Code | Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
+This section will outline the necessary steps to use both the K-Means and the K-Means Mahalanobis algorithms. This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook:  [Running Jupyter Notebook on Visual Studio Code - Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
 
 1. *Setup Dataset Folder*: To set up the dataset folder, start by unzipping and extracting the Iris and wine .zip files and placing them in a *Dataset* folder in the root directory. The dataset should be correctly located using the zip file, *kmeans-clustering.zip*. The desired folder structure should be as follows with the required files:
 
@@ -251,6 +251,3 @@ Tuning the feature weights enhances this by focusing on the most discriminative 
 > My code can be found [here](/assets/docs/kmeans-clustering.zip)
 {: .prompt-tip }
 
-# References
-
-- [Sharafaldin et al. - Toward generating a new intrusion detection dataset and intrusion traffic characterization](https://www.scitepress.org/Papers/2018/66398/66398.pdf)

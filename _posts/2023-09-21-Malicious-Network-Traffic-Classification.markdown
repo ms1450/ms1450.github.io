@@ -19,7 +19,7 @@ This project uses a deep neural network to classify network traffic into benign 
 
 ## Quick Start
 
-This section will outline the necessary steps to begin training and testing the model. This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook:  [Running Jupyter Notebook on Visual Studio Code | Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
+This section will outline the necessary steps to begin training and testing the model. This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook:  [Running Jupyter Notebook on Visual Studio Code - Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
 
 - *Setup Dataset Folder*: To set up the dataset folder, start by unzipping and extracting the .csv files from within the *MachineLearningCSV.zip* into a *Dataset* folder. The dataset can be obtained from [here](https://www.unb.ca/cic/datasets/ids-2017.html). Within *malicious-network-traffic-classification.zip*, the dataset will *not* be available. The desired folder structure should be as follows with the required files:
 

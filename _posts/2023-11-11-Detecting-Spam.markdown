@@ -18,7 +18,7 @@ This report presents the implementation and evaluation of various algorithms and
 
 ## Quick Start
 
-This section will outline the necessary steps to use the K-Means, K-Nearest Neighbour, and Transformer algorithms. This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook:  [Running Jupyter Notebook on Visual Studio Code | Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
+This section will outline the necessary steps to use the K-Means, K-Nearest Neighbour, and Transformer algorithms. This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook:  [Running Jupyter Notebook on Visual Studio Code - Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
 
 - *Setup Dataset Folder*: To set up the dataset folder, start by unzipping and extracting the *smsspamcollection.zip* files and placing them in a Dataset folder in the root directory. The dataset should be correctly located using the zip file, *detecting-spam.zip*. The desired folder structure should be as follows with the required files:
 

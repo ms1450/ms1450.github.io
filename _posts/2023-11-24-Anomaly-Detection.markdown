@@ -18,7 +18,8 @@ I studied the BETH Dataset to implement and evaluate various anomaly detection m
 
 ## Quick Start
 
-This section will outline the necessary steps to use the Robust Covariance, One-Class SVM, Isolation Forest, Variational Auto Encoder, and XGBoost. This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook:  [Running Jupyter Notebook on Visual Studio Code | Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
+This section will outline the necessary steps to use the Robust Covariance, One-Class SVM, Isolation Forest, Variational Auto Encoder, and XGBoost.
+This project was completed using Visual Studio Code with Jupyter Notebook. If you require assistance, we recommend referring to the following resource for setting up the notebook: [Running Jupyter Notebook on Visual Studio Code - Medium](https://medium.com/geekculture/running-jupyter-notebook-on-visual-studio-code-4526fb27dc0b)
 
 - *Setup Dataset Folder*: To set up the dataset folder, start by unzipping and extracting the *archive.zip* files and placing them in a Dataset folder in the root directory. The dataset should be correctly located using the zip file, *anomaly-detection.zip*. We will only use the ``labelled_training_data.csv``and the ``labelled_testing_data.csv``. Other files do not interfere with the working of our algorithms. The desired folder structure should be as follows with the required files:
 
@@ -50,9 +51,9 @@ The training set comprises 763,144 events from 8 hosts, while the testing set co
 
 Please refer to the previously mentioned paper for more information about the dataset.
 
-## Methods:
+## Methods
 
-### Method #1: Robust Covariance
+### Robust Covariance
 
 The first model used to detect anomalies in a dataset is Robust Covariance. To achieve this, we use the EllipticEnvelope model from the sklearn library. This method helps detect outliers in a Gaussian-distributed dataset.
 
@@ -61,7 +62,7 @@ The first model used to detect anomalies in a dataset is Robust Covariance. To a
 
 Robust Covariance is helpful when the data may contain some contamination, like anomalies or outliers. These outliers can skew the results of standard covariance measurements. The method employs an ellipse envelope approach that fits an ellipse to the central data points, assuming a Gaussian distribution. Points that lie outside this ellipse are considered outliers or anomalies. The method uses the Mahalanobis distance to determine whether a data point is inside or outside the ellipse. The Mahalanobis distance measures the distance between a point and a distribution. Higher Mahalanobis distances indicate that a point is likely an outlier.
 
-### Method #2: One-Class Support Vector Machine(SVM)
+### One-Class Support Vector Machine(SVM)
 
 The second model used is the one-class support vector machine. This model discriminates between in-distribution data and out-of-distribution data to perform anomaly detection. It is designed explicitly for anomaly detection in unsupervised learning. The model finds a decision boundary, a hyperplane in a high-dimensional space, that best separates the data points. The key idea behind this model is to map the input data into a high-dimensional feature space and then identify the smallest region that encloses most of the data points. Any data points that fall outside this region are considered anomalies.
 
@@ -70,14 +71,14 @@ The second model used is the one-class support vector machine. This model discri
 
 The One-Class SVM tries to encompass most normal data while isolating the outliers. It uses a non-linear kernel to project the data into a higher dimensional space and then seeks to separate the data from the origin with the maximum margin. This creates a boundary around the 'normal' data; anything outside is flagged as an anomaly.
 
-### Method #3: Isolation Forest
+### Isolation Forest
 
 This model is designed to identify anomalous behavior within a dataset using a small set of discrete features and the conspicuous nature of attacks. It does not rely on profiling average data points but explicitly isolates anomalies. To achieve this, the model randomly selects a feature and a split value between the maximum and minimum values of the selected feature, producing shorter paths for anomalies with distinct value ranges. As a result, when a forest of random trees collectively produces shorter path lengths for particular points, these points are more likely to be anomalies. This makes the model highly effective at differentiating suspicious events from benign ones.
 
 > Isolation Forest is effective for high-dimensional datasets as it isolates anomalies instead of profiling normal data points.
 {: .prompt-info }
 
-### Method #4: Variational Auto Encoder(VAE) + Density of States Estimate(DoSE) Support Vector Machine(SVM)
+### Variational Auto Encoder(VAE) + Density of States Estimate(DoSE) Support Vector Machine(SVM)
 
 A practical method for detecting anomalies involves using a Variational Auto Encoder (VAE) to model observations as a product of categorical distributions. This model is then used by Density of State Estimates (DoSE) with a linear one-class SVM trained using SGD to identify anomalies.
 
@@ -86,7 +87,7 @@ A practical method for detecting anomalies involves using a Variational Auto Enc
 
 VAEs are a type of generative model that can learn complex data distributions. DOSE is an approach that balances the dataset. The VAE learns to encode and decode input data, effectively creating a compressed data representation. It can then reconstruct what average data should look like. The DOSE approach generates synthetic samples of the minority class (in this case, anomalies) to balance the dataset. The model can better learn to distinguish between normal and anomalous data by training on this balanced dataset. When new data is input into the system, the VAE attempts to reconstruct it. If the reconstruction error is high, it implies that the data is not similar to the 'normal' data the VAE was trained on, flagging it as an anomaly.
 
-### Method #5: Gradient Boosting Machine (XGBoost)
+### Gradient Boosting Machine (XGBoost)
 
 The eXtreme Gradient Boosting (XGBoost) algorithm is a regression and classification tool that can be adapted for anomaly detection. It was used as a new method to evaluate its performance against other techniques in the paper.
 
