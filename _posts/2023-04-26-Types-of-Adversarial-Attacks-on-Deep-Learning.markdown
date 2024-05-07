@@ -3,10 +3,10 @@ title: Types of Black-box Adversarial Attacks on Deep Learning
 author: mehul
 date: 2023-04-26 18:02:00
 categories: [Blogging, Research]
-tags: [Deep Learning, Adversarial Examples, FGSM, CNN, MNIST Dataset, Adversarial Training, Image Classification]
+tags: [Deep Learning, Adversarial Attacks, Black Box Attacks, FGSM, C&W, Boundary Attack, Transfer-based Attack, Decision-based Attack]
 image:
-  path: '/assets/img/headers/.webp'
-  alt:
+  path: '/assets/img/headers/black-box.webp'
+  alt: DALL-E Image of Adversarial black box attack created using small geometric shapes in a monochrome design on a black background.
 ---
 
 In the rapidly evolving world of artificial intelligence, the integrity and robustness of machine learning models are paramount. An intriguing facet of AI security is the concept of adversarial attacks, where malicious inputs are designed to deceive neural networks into making erroneous predictions or classifications. These attacks are not just theoretical concerns; they represent significant practical challenges in deploying AI systems in sensitive environments.
@@ -83,6 +83,10 @@ Other innovative hybrid attacks include Yang et al.’s Learnable Black-box Atta
 Further advancing this field, Shi et al. introduced a comprehensive black-box adversarial attack framework that incorporates elements of both TRA and DEA. This framework is structured around four distinct modules: the Parameter Adjustment Module (PAM), which sets up attack parameters to improve query efficiency and alleviate the overfitting problem common in TRA; the Transfer Attack Module (TAM), which generates intermediate adversarial examples based on parameters from PAM; the Noise Compression Module (NCM), which employs queries to find adversarial examples with smaller noise magnitudes by sampling near the original; and the State Transition Module (STM), which updates the adversarial example based on its classification status and proximity to the original image. Through this sophisticated integration, the framework aims to sidestep many of the pitfalls typically encountered in TRA and DEA, showcasing a strategic evolution in developing adversarial techniques.
 
 ![Query Efficient Black Box Adversarial Attack](/assets/img/posts/types-of-adv-11.png){: width="972" height="589" } *Query Efficient Black Box Adversarial Attack*
+
+## Conclusion
+
+Adversarial attacks on neural networks highlight the ongoing battle between developing robust AI systems and the tactics used to undermine them. By dissecting and understanding the mechanisms behind these attacks, researchers can better devise methods to defend against them, ensuring the safety and reliability of AI applications across various domains. As we continue to integrate AI more deeply into critical systems, the importance of securing these systems against adversarial threats cannot be overstated.
 
 # References
 
