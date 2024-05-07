@@ -146,7 +146,7 @@ The 'Best' model was constructed by varying only a few hyperparameters of the 'D
 
 This project was a joint effort with my skilled colleagues, Zhi Liu and Alex Sutay. Together, we developed implementations of CNN, SDAE, and LSTM, and shared the dataset as part of our assignment for the CSEC-720 Deep Learning Security course at RIT.
 
-You can access the project by clicking [here](/assets/docs/Website%20Fingerprinting%20using%20Deep%20Learning.pdf).
+You can access the project by clicking [here](/assets/docs/Website%20Fingerprinting%20using%20Deep%20Learning.pdf) and my code by clicking [here](/assets/docs/CNN-EA1.ipynb).
 
 # References
 

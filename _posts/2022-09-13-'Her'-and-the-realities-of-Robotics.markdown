@@ -1,5 +1,5 @@
 ---
-title: \'Her\' and the realities of Robotics - Impact on Society
+title: The movie 'Her' and the realities of Robotics - Impact on Society
 author: mehul
 date: 2022-09-13 11:51:00
 categories: [Blogging, Opinion]
