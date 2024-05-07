@@ -11,6 +11,9 @@ image:
 
 In the rapidly evolving world of artificial intelligence, the integrity and robustness of machine learning models are paramount. An intriguing facet of AI security is the concept of adversarial attacks, where malicious inputs are designed to deceive neural networks into making erroneous predictions or classifications. These attacks are not just theoretical concerns; they represent significant practical challenges in deploying AI systems in sensitive environments.
 
+> Adversarial attacks pose a significant challenge to the deployment of AI systems in critical environments like healthcare and autonomous driving, where security and accuracy are crucial.
+{: .prompt-info }
+
 # Categories of Adversarial Attacks
 
 Adversarial attacks can be categorized based on the attacker’s access to the model:
@@ -19,17 +22,26 @@ Adversarial attacks can be categorized based on the attacker’s access to the m
 - **Grey Box Attacks**: The attacker partially knows the model.
 - **Black Box Attacks**: The attacker cannot access the model’s internals and must operate without knowing the underlying details.
 
+> Understanding the type of access an attacker has to a model is key to implementing effective security measures. Familiarize yourself with the differences between white, grey, and black box attacks to better protect your systems.
+{: .prompt-tip }
+
 Given these constraints, black-box attacks are particularly notable because they represent common real-world attack scenarios where the attacker does not have insider information.
 
 ## Types of Black-Box Attacks
 
 Black-box attacks are primarily of two types: transfer-based and decision-based.
 
+> Black-box attacks are particularly challenging to defend against because they require no internal knowledge of the AI system, making them a common choice for real-world attacks.
+{: .prompt-info }
+
 ### Transfer-Based Attacks (TRA)
 
 In transfer-based attacks, adversaries typically perform white-box attacks on a substitute model to generate adversarial examples. These examples are then used to attack the target model in a black-box manner. This method hinges on the assumption that similarities in model architectures can be exploited to transfer adversarial examples from one model to another.
 
 ![Transfer-based Attacks(TRA)](/assets/img/posts/types-of-adv-1.png){: width="972" height="589" } *Transfer-based Attacks(TRA)*
+
+> Transfer-based attacks rely on the assumption that different models behave similarly. This can lead to errors in defense strategies if not carefully managed.
+{: .prompt-warning }
 
 Gradient-based Attack Methods**: Among the most prominent is the **Fast Gradient Sign Method** (FGSM) by Goodfellow, Shlens, and Szegedy. This method utilizes the gradients of the loss function with respect to the input image to produce perturbations. FGSM is known for its computational efficiency, as it requires only one forward and backward pass through the neural network.
 
@@ -55,6 +67,9 @@ These attacks do not rely on gradient information but instead sample in the vici
 
 ![Decision-based Attacks(DEA)](/assets/img/posts/types-of-adv-4.png){: width="972" height="589" } *Decision-based Attacks(DEA)*
 
+> Decision-based attacks require patience and precision as they involve extensive sampling around the decision boundary. Understanding this can help in developing more robust defensive mechanisms.
+{: .prompt-tip }
+
 These attacks probe around the original image to identify the minimal noise required to induce misclassification.
 
 ![Boundary DEA Attacks](/assets/img/posts/types-of-adv-9.png){: width="972" height="589" } *Boundary DEA Attacks*
@@ -72,6 +87,9 @@ This approach can easily fall into local optima because it prefers adversarial e
 ## Transfer-Based + Decision-Based Attacks
 
 In the realm of adversarial attacks on machine learning models, researchers have been innovating hybrid approaches that blend the strategies of both Transfer-based (TRA) and Decision-based (DEA) attacks. These hybrid attacks aim to leverage the strengths of each approach to enhance their effectiveness and efficiency.
+
+> Combining transfer-based and decision-based approaches can yield more effective adversarial attacks, but also opens up new avenues for defensive strategies. Staying informed on these developments is crucial for AI security professionals.
+{: .prompt-info }
 
 A notable example of such a hybrid approach is the Biased Boundary Attack (BBA) developed by Brunner et al.
 
