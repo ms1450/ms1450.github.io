@@ -3,7 +3,7 @@ title: Types of Black-box Adversarial Attacks on Deep Learning
 author: mehul
 date: 2023-04-26 18:02:00
 categories: [Blogging, Research]
-tags: [Deep Learning, Adversarial Attacks, Black Box Attacks, FGSM, C&W, Boundary Attack, Transfer-based Attack, Decision-based Attack]
+tags: [AI, Deep Learning, Adversarial Attacks, Black Box Attacks, FGSM, C&W, Boundary Attack, Transfer-based Attack, Decision-based Attack]
 image:
   path: '/assets/img/headers/black-box.webp'
   alt: DALL-E Image of Adversarial black box attack created using small geometric shapes in a monochrome design on a black background.

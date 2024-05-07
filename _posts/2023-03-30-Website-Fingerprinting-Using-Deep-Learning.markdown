@@ -3,7 +3,7 @@ title: Website Fingerprinting using Deep Learning
 author: mehul
 date: 2023-03-30 21:28:00
 categories: [Blogging, Research]
-tags: [Website Fingerprinting, CNN, Hyperparameters, Network Traffic Data, Deep Learning]
+tags: [AI, Website Fingerprinting, CNN, Hyperparameters, Network Traffic Data, Deep Learning]
 image:
   path: '/assets/img/headers/fingerprinting.webp'
   alt: DALL-E Image of CNN created using small geometric shapes in a monochrome design on a black background.

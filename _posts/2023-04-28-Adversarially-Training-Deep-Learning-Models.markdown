@@ -3,7 +3,7 @@ title: Adversarially Attacks and Training Deep Learning Models
 author: mehul
 date: 2023-04-28 14:06:00
 categories: [Blogging, Research]
-tags: [Deep Learning, Adversarial Examples, FGSM, PGD, CNN, MNIST Dataset, Adversarial Training, Image Classification]
+tags: [AI, Deep Learning, Adversarial Examples, FGSM, PGD, CNN, MNIST Dataset, Adversarial Training, Image Classification]
 image:
   path: '/assets/img/headers/adversarial.webp'
   alt: DALL-E Image of Adversarial attack created using small geometric shapes in a monochrome design on a black background.
