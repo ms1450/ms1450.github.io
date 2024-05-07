@@ -1,5 +1,5 @@
 ---
-title: Adversarially Attacks and Training Deep Learning Models
+title: Adversarial Attacks and Training Deep Learning Models
 author: mehul
 date: 2023-04-28 14:06:00
 categories: [Blogging, Research]
