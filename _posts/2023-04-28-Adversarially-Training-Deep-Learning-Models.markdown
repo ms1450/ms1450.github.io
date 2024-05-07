@@ -122,7 +122,7 @@ The figure above shows the results of the FGSM adversarial attack on three model
 
 ![10 Images showcasing the FGSM Adversarial Attack on the Baseline](/assets/img/posts/adv-7a.png){: width="972" height="589" } *10 Images showcasing the FGSM Adversarial Attack on the Baseline*
 ![10 Images showcasing the FGSM Adversarial Attack on the PGD Trained Model](/assets/img/posts/adv-7b.png){: width="972" height="589" } *10 Images showcasing the FGSM Adversarial Attack on the PGD Trained Model*
-![10 Images showcasing the FGSM Adversarial Attack on the FGSM Retrained Model](/assets/img/posts/adv-4.png){: width="972" height="589" } *10 Images showcasing the FGSM Adversarial Attack on the FGSM Retrained Model*
+![10 Images showcasing the FGSM Adversarial Attack on the FGSM Retrained Model](/assets/img/posts/adv-7c.png){: width="972" height="589" } *10 Images showcasing the FGSM Adversarial Attack on the FGSM Retrained Model*
 
 The figures above show ten perturbed image samples and their classifications by the Baseline, FGSM-trained, and PGD-trained models. We can see that the baseline model accurately predicted the class up to epsilon 0.15, the FGSM-trained model accurately predicted the class up to epsilon 0.2, and the PGD-trained model accurately predicted the class up to epsilon 0.25.
 
