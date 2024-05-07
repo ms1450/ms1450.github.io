@@ -50,6 +50,7 @@ Overfitting occurs when adversarial examples are tailored too closely to the sub
 Additionally, the problem of noise compression hinders the effectiveness of these attacks. In ideal scenarios, adversarial noises are optimized and compressed effectively across models; however, in the case of transfer-based attacks, the noise often only relates to the substitute model. This limitation prevents the adversarial examples from being generalizable and effective against the target model, showcasing the critical noise issue due to TRA.
 
 ## Decision-based Attacks
+
 These attacks do not rely on gradient information but instead sample in the vicinity of the original image to identify the least amount of noise needed to cause misclassification.
 
 ![Decision-based Attacks(DEA)](/assets/img/posts/types-of-adv-4.png){: width="972" height="589" } *Decision-based Attacks(DEA)*
