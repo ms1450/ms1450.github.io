@@ -1,0 +1,10 @@
+---
+title: Anomaly Detection using Machine Learning
+author: mehul
+date: 2023-11-24 09:03:00
+categories: [Blogging, WriteUp]
+tags: [Anomaly Detection, AI, BETH, Machine Learning, Robust Covariance, One-Class SVM, Isolation Forest, Variational Auto Encoder, XGBoost, Python]
+image:
+  path: '/assets/img/headers/anomaly.webp'
+  alt: DALL-E Image of Anomaly created using small geometric shapes in a monochrome design on a black background.
+---
