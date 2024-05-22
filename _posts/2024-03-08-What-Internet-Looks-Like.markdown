@@ -1,7 +1,7 @@
 ---
 title: What the Internet REALLY looks like?
 author: mehul
-date: 2023-03-08 09:03:00
+date: 2024-03-08 09:03:00
 categories: [Blogging, Opinion]
 tags: [BGP, BGP Poisoning, Autonomous Systems, Internet Simulation, Network Topology, AS Level Connections, Internet Hierarchy, P2C Connections, P2P Connections, Internet Exchange Points (IXPs), Network Protocols, Internet Mapping, Tier-1 ASes, Transit ASes, Stub ASes, Internet Dynamics, Network Evolution, Internet Measurements, Internet Datasets, Cybersecurity, Network Security]
 image:
