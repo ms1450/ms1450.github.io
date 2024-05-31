@@ -5,7 +5,7 @@ date: 2024-03-08 09:03:00
 categories: [Blogging, Opinion]
 tags: [BGP, BGP Poisoning, Autonomous Systems, Internet Simulation, Network Topology, AS Level Connections, Internet Hierarchy, P2C Connections, P2P Connections, Internet Exchange Points (IXPs), Network Protocols, Internet Mapping, Tier-1 ASes, Transit ASes, Stub ASes, Internet Dynamics, Network Evolution, Internet Measurements, Internet Datasets, Cybersecurity, Network Security]
 image:
-  path: '/assets/img/headers/internet.png'
+  path: '/assets/img/headers/internet.jpg'
   alt: Image of Internet created using small geometric shapes in a monochrome design on a black background.
 ---
 Recently, I worked on a project to simulate the Internet, observe the effects of BGP (Border Gateway Protocol) poisoning on ASes (Autonomous Systems), and understand how effective it is for topology discovery. However, one of my biggest challenges is simulating the Internet.
